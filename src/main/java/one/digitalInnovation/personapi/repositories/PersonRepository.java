@@ -1,8 +1,9 @@
-package one.digitalInnovation.personapi.repository;
+package one.digitalInnovation.personapi.repositories;
 
-import one.digitalInnovation.personapi.entity.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import one.digitalInnovation.personapi.entities.Person;
 
 @Repository
 public interface PersonRepository extends JpaRepository<Person, Long> {

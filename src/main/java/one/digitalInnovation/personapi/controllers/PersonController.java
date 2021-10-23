@@ -1,9 +1,9 @@
-package one.digitalInnovation.personapi.controller;
+package one.digitalInnovation.personapi.controllers;
 
-import one.digitalInnovation.personapi.dto.MessageResponseDTO;
 import one.digitalInnovation.personapi.dto.request.PersonDTO;
+import one.digitalInnovation.personapi.dto.response.MessageResponseDTO;
 import one.digitalInnovation.personapi.exception.PersonNotFoundException;
-import one.digitalInnovation.personapi.service.PersonService;
+import one.digitalInnovation.personapi.services.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
